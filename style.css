@@ -13,13 +13,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(7, 153, 153);
+    background: #fcfcfc;
 }
 
 .wrapper {
-    width: 420px;
-    background: rgb(12, 194, 185) ;
+    width: 30%;
+    height: 350px;
+    background:#6c757d ;
     color: #fff;
+    text-align: center;
 }
 
 .wrapper h1{
@@ -29,9 +31,10 @@ body {
 
 .wrapper .input-box{
     position: relative;
-    width: 100%;
+    width: 85%;
     height: 50px;
     margin: 30px 0;
+   left: 35px;
 }
 
 .input-box input{
@@ -45,6 +48,7 @@ body {
     font-size: 16px;
     color: #fff;
     padding: 20px 45px 20px 20px;
+    align-items: center;
 }
 
 .input-box input::placeholder{
@@ -60,9 +64,11 @@ body {
 }
 
 .wrapper .remember-forgot {
-    justify-content: space-between;
+    justify-content: center;
     font-size: 14.5px;
     margin: -15px 0 15px;
+
+    
 }
 
 .remember-forgot label input{
@@ -71,25 +77,29 @@ body {
 }
 
 .remember-forgot a{
-    float: right;
+    justify-content: center;
     color: #fff;
     text-decoration: none;
 }
 
-.remember-forgot a:hover{
-    text-decoration: underline;
+.remember-forgot a{
+    text-align: center;
+    font-size: 20px;
 }
 
+
 .wrapper .btn {
-    width: 100%;
-    height: 45px;
+    width: 85%;
+    height: 95px;
+    margin: 30px 0;
     background: #fff;
     border: none;
     outline: none;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     color: #333;
     font-weight: 600;
+    padding: 10px 90px 10px 90px;
 }

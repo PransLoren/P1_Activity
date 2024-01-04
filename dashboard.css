@@ -2,13 +2,15 @@
 /* Custom CSS for Card Views */
 
 
+
+
 * {
     
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", san-serif;
-    text-decoration: none;
+    
 }
 
 /* DASHBOARD kineme */
@@ -21,12 +23,14 @@ body {
 }
         
 .header {
-    background-color: #ffffff;
     color: rgb(1, 1, 1);
     text-align: center;
     padding: 20px 0;
 }
-
+.nav{
+    background-color: #011B10;
+    color: #011B10;
+}
 .card {
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -83,14 +87,31 @@ body {
 
 .card-body{
     background: #6c757d;
-    border-radius: 30px;
+    /*border-radius: 30px;*/
+    background: #011B10; 
+    color: #ffffff;
     padding: 30px;
 
+}
+.card-body .card-title{
+    color: #ffffff;
+}
+
+.card-body .card-subtitle{
+    color: #ffffff;
+}
+
+.card-body .card-text{
+    color: #ffffff;
+}
+
+.card-subtitle.mb-2.text-muted{
+    color: #ffffff !important;
 }
 
 .footer {
     text-align: center;
-    background-color: #f5f5f5;
+    background-color:   #7b9678;;
     padding: 10px 0;
 }
 

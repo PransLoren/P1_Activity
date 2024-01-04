@@ -9,97 +9,87 @@
 }
 
 body {
-    display: flex;
+
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #fcfcfc;
+    background: #b0dfac;
 }
-
-.wrapper {
-    width: 30%;
-    height: 350px;
-    background:#6c757d ;
-    color: #fff;
+.row h2{
     text-align: center;
+    margin-bottom: 22px;
+    font-size: 30px;
+}
+.main-content{
+	width: 80%;
+	margin: 5em auto;
+	display: flex;
 }
 
-.wrapper h1{
-    font-size: 36px;
-    text-align: center;
+.fa-android{
+	font-size:3em;
+}
+@media screen and (max-width: 640px) {
+	.main-content{width: 90%;}
+	.company__info{
+		display: none;
+	}
+	
+}
+@media screen and (min-width: 642px) and (max-width:800px){
+	.main-content{width: 70%;}
 }
 
-.wrapper .input-box{
-    position: relative;
-    width: 85%;
-    height: 50px;
-    margin: 30px 0;
-   left: 35px;
-}
 
-.input-box input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    font-size: 16px;
+.login_form{
     color: #fff;
-    padding: 20px 45px 20px 20px;
-    align-items: center;
+    padding: 50px 50px;
+	background-color: #011B10;
+border-radius: 20px;
+	border:3px solid rgb(0, 255, 128);
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
 }
-
-.input-box input::placeholder{
-    color: #fff
+form{
+	padding: 0 2em;
 }
-
-.input-box i{
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
+.form__input{
+	width: 100%;
+	border:0px solid transparent;
+	border-radius: 5px;
+	border-bottom: 2px solid rgb(0, 255, 128);
+	padding: 1em .5em .5em;
+	padding-left: 2em;
+	outline:none;
+	margin:1em auto;
+    margin-bottom: 1em;
+	transition: all .5s ease;
 }
-
-.wrapper .remember-forgot {
-    justify-content: center;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-
-    
+.form__input:focus{
+	border-bottom-color: #008080;
+	box-shadow: 0 0 5px rgba(0,80,80,.4); 
+	border-radius: 4px;
 }
-
-.remember-forgot label input{
-    accent-color: #fff;
-    margin-right: 3px;
-}
-
-.remember-forgot a{
-    justify-content: center;
-    color: #fff;
+.btn{
     text-decoration: none;
-}
-
-.remember-forgot a{
+    padding: 15px 30px;
+	transition: all .5s ease;
+	border-radius: 30px;
+	color:#011B10;
+	font-weight: 600;
+	background-color: #fff;
+	border: 3px solid #7b9678;;
+    margin-top: 1em;
+    float: right;
+    width: 100%;
     text-align: center;
-    font-size: 20px;
+ 
+ 
 }
 
-
-.wrapper .btn {
-    width: 85%;
-    height: 95px;
-    margin: 30px 0;
-    background: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 18px;
-    color: #333;
-    font-weight: 600;
-    padding: 10px 90px 10px 90px;
+.btn:hover, .btn:focus{
+	background-color: #b0dfac;
+	color:#011B10;
 }

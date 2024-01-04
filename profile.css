@@ -21,7 +21,9 @@ a {
 }
 
 p {
-    color: var(--text-light);
+    
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 body {
@@ -76,7 +78,9 @@ ul li a:hover {
     color: var(--text-dark);
     font-weight: 600;
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .title {
@@ -85,6 +89,8 @@ ul li a:hover {
     line-height: 3rem;
     color: var(--text-dark);
     margin-bottom: 1rem;
+    text-align: center;
+    margin-top: -10px;
 }
 
 .title span {
@@ -93,18 +99,21 @@ ul li a:hover {
 
 .description {
     line-height: 1.5rem;
-    color: var(--text-light);
+    color: black;
     margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .image {
     display: grid;
     place-items: center;
+    margin-top: 2%;
 }
 
 .image img {
     width: min(25rem, 90%);
-    border-radius: 100%;
+    border-radius: 3%;
 }
 
 @media (width < 750px) {
@@ -136,4 +145,13 @@ ul li a:hover {
     .image {
         grid-area: 1/1/2/2;
     }
+}
+.footer {
+    text-align: center;
+    background-color:   #7b9678;;
+    padding: 10px 0;
+}
+
+.footer p {
+    margin: 0;
 }

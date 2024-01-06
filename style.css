@@ -93,3 +93,13 @@ form{
 	background-color: #b0dfac;
 	color:#011B10;
 }
+
+.footer {
+    text-align: center;
+    background-color:   #7b9678;;
+    padding: 10px 0;
+}
+
+.footer p {
+    margin: 0;
+}
